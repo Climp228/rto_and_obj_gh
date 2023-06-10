@@ -1,3 +1,4 @@
+# Запускати програму вписуючи цей код в термінал
 # python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
 
 from imutils.video import VideoStream

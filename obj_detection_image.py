@@ -50,11 +50,11 @@ def func1(input):
 
 
 def main():
-    func1('people_images\people1.jpg')
-    func1('people_images\people2.jpg')
-    func1('people_images\people3.jpg')
-    func1('people_images\people4.jpg')
-    func1('people_images\people5.jpg')
+    func1('people_images/people1.jpg')
+    func1('people_images/people2.jpg')
+    func1('people_images/people3.jpg')
+    func1('people_images/people4.jpg')
+    func1('people_images/people5.jpg')
 
 
 main()
