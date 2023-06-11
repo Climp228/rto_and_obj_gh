@@ -91,9 +91,9 @@ for image_path in image_paths:
                            ignore_index=True)
 
 results_df['MAE'] = (results_df['Count'] - results_df['Predicted']).abs()
-results_df['MSE'] = results_df['mae'] ** 2
+results_df['MSE'] = results_df['MAE'] ** 2
 
-plt.hist(results_df['mae'], bins=20)
+plt.hist(results_df['MAE'], bins=20)
 plt.xlabel('Absolute Errors')
 plt.ylabel('Errors frequency')
 plt.title('Histogram of Absolute Errors')
